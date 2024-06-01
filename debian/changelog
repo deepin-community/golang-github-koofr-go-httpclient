@@ -1,5 +1,34 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-koofr-go-httpclient (0.0~git20200420.93aa7c7-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream snapshot.
+  * drop deprecated debian patch fix_tests.patch
+  * Standards-Version: 4.6.1
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Drew Parsons <dparsons@debian.org>  Thu, 03 Nov 2022 16:41:12 +0100
+
+golang-github-koofr-go-httpclient (0.0~git20190818.e0dc8fd-2) unstable; urgency=medium
+
+  * debian patches fix_tests.patch fixes tests for Go 1.14 to use
+    explicit quotes in error strings. Closes: #954524.
+  * Standards-Version: 4.5.0
+
+ -- Drew Parsons <dparsons@debian.org>  Mon, 13 Apr 2020 00:15:14 +0800
+
+golang-github-koofr-go-httpclient (0.0~git20190818.e0dc8fd-1) unstable; urgency=medium
+
+  * New upstream git.
+  * Standards-Version: 4.4.1
+
+ -- Drew Parsons <dparsons@debian.org>  Sat, 11 Jan 2020 01:08:40 +0800
+
+golang-github-koofr-go-httpclient (0.0~git20180104.0378617-2) unstable; urgency=medium
+
+  * Standards-Version: 4.4.0
+
+ -- Drew Parsons <dparsons@debian.org>  Tue, 23 Jul 2019 13:07:23 +0800
+
+golang-github-koofr-go-httpclient (0.0~git20180104.0378617-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #928416)
+
+ -- Drew Parsons <dparsons@debian.org>  Sun, 05 May 2019 16:34:25 +0800
